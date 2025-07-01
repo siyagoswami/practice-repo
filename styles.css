@@ -8,6 +8,10 @@ header {
     box-shadow: 10px 10px #fbf0b6;
 }
 
+body {
+    background-color: #fffef1;
+}
+
 h1 {
     font-family: "Miniver", cursive; 
     font-weight: 400; 
@@ -16,7 +20,7 @@ h1 {
 }
 
 p {
-    font-family:"The Girl Next Door", cursive;
+    font-family: "The Girl Next Door", cursive;
     font-weight: 400; 
     font-size: 20px;
     font-style: normal;
@@ -42,6 +46,7 @@ p {
     text-align: left; 
     margin-top: 2%; 
     gap: 10px; 
+    box-shadow: 5px 5px 10px #888888;
 }
 
 .container2, .container4, .container6 {
@@ -53,6 +58,7 @@ p {
     gap: 10px; 
     margin-top: 2%; 
     text-align: left; 
+    box-shadow: 5px 5px 10px #888888;
 }
 
 img {
@@ -69,12 +75,70 @@ img {
     margin-left: 10px; 
 }
 
-.text {
+.text1 {
     font-family: "Italiana", sans-serif;
     font-weight: 400; 
-    font-size: 15px; 
-    max-width: 50%; 
+    font-size: 16px; 
+    max-width: 40%; 
     text-align: left; 
     margin: 0; 
-    padding: 0; 
+    padding: 0 15px; 
+    display: none; 
+    overflow: hidden; 
+    background-color: #b6d8fb; 
+}
+
+.text2 {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400; 
+    font-size: 16px; 
+    max-width: 40%; 
+    text-align: left; 
+    margin: 0; 
+    padding: 0 15px; 
+    display: none; 
+    overflow: hidden; 
+    background-color: #fbf0b6; 
+}
+
+.collapsible1 {
+    background-color: #d5eeff;
+    color: black; 
+    cursor: pointer; 
+    padding: 15px; 
+    width: 50%; 
+    border: none; 
+    text-align: left; 
+    outline: none; 
+    font-size: 16px; 
+    font-family: "The Girl Next Door", cursive;
+}
+ 
+.collapsible2 {
+    background-color: #fffddf;
+    color: black; 
+    cursor: pointer; 
+    padding: 15px; 
+    width: 50%; 
+    border: none; 
+    text-align: right; 
+    outline: none; 
+    font-size: 16px; 
+    font-family: "The Girl Next Door", cursive;
+}
+
+button {
+    padding: 10px; 
+    width: 100%; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.collapsible1 .button:hover{
+    background-color: #b6d8fb; 
+}
+
+.collapsible2 .button:hover {
+    background-color: #fbf0b6; 
 }
